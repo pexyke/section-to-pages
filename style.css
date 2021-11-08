@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+button {
+    height: 60px;
+    width: 200px;
+    margin: 40px;
+}
+
+section button {
+    padding: 20px;
+  
+}
+
+section:first-of-type {
+    background-color: #1988e0
+}
+
+section:first-of-type button {
+    background-color: #85bf31;
+}
+
+section:nth-of-type(2) {
+    background-color: #85bf31;
+}
+
+section:nth-of-type(2) button {
+    background-color: #1988e0
+}
+
+
+section:last-of-type {
+    background-color: #000;
+}
+
+section:last-of-type  button{
+    background-color: #fff;
+}
